@@ -21,5 +21,23 @@ Linked List based implementation: Each element in the stack is the node in a lin
 # Implementaion:
 Through a Single code the operations on stack such as push and pop were seen in C++
 
+# Algorithms:
+
+Algorithm: Stack using Array
+
+1. Start
+2. Initialize an array `arr[SIZE]` and a variable `top = -1`.
+3. Push Operation (Insert):
+     If `top == SIZE - 1`, display "Stack Overflow".
+     Else increment `top` by 1 and insert the new element at `arr[top]`.
+4. Pop Operation (Delete):
+
+   * If `top == -1`, display "Stack Underflow".
+   * Else print the element at `arr[top]` and decrement `top` by 1.
+5. Perform multiple `push` operations and check overflow condition.
+6. Perform multiple `pop` operations and check underflow condition.
+7. Print the contents of the array.
+8. End
+
 # Conclusion:
 The above code demonstrated stack implementaion in C++.
